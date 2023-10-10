@@ -5,10 +5,9 @@ function App() {
     <div className="App">
       <h1>Software Engineering & Careers</h1>
       <section>
-        <h2>
-          <a href="https://www.devjobsscanner.com/blog/top-8-most-demanded-programming-languages/"></a>
-          In Demand Languages
-        </h2>
+        <a href="https://www.devjobsscanner.com/blog/top-8-most-demanded-programming-languages/">
+          <h2>In Demand Languages</h2>
+        </a>
         <ul className="lists" id="language-list">
           <li className="bold">Front end</li>
           <li> JavaScript/TypeScript</li>
@@ -61,7 +60,7 @@ function App() {
           <li>Apprenticeship</li>
           <li>
             {" "}
-            Degree/graduate schemes -> software development degrees now, or
+            Degree/graduate schemes - software development degrees now, or
             traditional computing degrees (these are very much theory and
             frameworks rather than practical coding like the software degrees.)
           </li>
